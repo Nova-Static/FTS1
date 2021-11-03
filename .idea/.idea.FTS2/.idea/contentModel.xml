@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ufo_s\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ufo_s\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_FTS2.-630061399.00" t="ExcludeRecursive" />
+    <e p="F:\FTS2\FTS2" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="Migration" t="Include">
+            <e p="AddVuforiaEnginePackage.cs" t="Include" />
+            <e p="EditorMigrationScripts.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="ExampleAssets" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="AnchorCreator.cs" t="Include" />
+            <e p="ARFeatheredPlaneMeshVisualizer.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="FeatheredPlaneShader.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Question.cs" t="Include" />
+          <e p="QuestionHandler.cs" t="Include" />
+        </e>
+        <e p="StreamingAssets" t="Include">
+          <e p="Vuforia" t="Include">
+            <e p="Vuforia.xml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EditorMigrationScripts.csproj" t="IncludeRecursive" />
+      <e p="FTS2.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
