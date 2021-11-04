@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
@@ -10,10 +11,17 @@ public class QuestionHandler : MonoBehaviour
     [SerializeField] private List<Question> questionList;
     private int currentQuestionN  = 0;
     [SerializeField] private Text questionText;
+    [SerializeField] private TextMeshPro answer1, answer2;
+    [SerializeField] private Image borderImage;
     private bool answer, seeRed, seeGreen = false;
     private void Start()
     {
         NextQuestion();
+    }
+
+    private void FixedUpdate()
+    {
+        borderImage.color = new Color(borderImage.color.r+0.01f, borderImage.color.g+0.01f, borderImage.color.b+0.01f);
     }
 
     public void NextQuestion()
@@ -27,6 +35,8 @@ public class QuestionHandler : MonoBehaviour
         currentQuestionN = RInt;
         Debug.Log(currentQuestionN);
         questionText.text = questionList[currentQuestionN].questionText;
+        answer1.text = questionList[currentQuestionN].questionOptionA;
+        answer2.text = questionList[currentQuestionN].questionOptionB;
     }
 
     public void CheckAnswer(int answer)
@@ -34,6 +44,12 @@ public class QuestionHandler : MonoBehaviour
         if (answer == questionList[currentQuestionN].questionAnswer)
         {
             this.answer = true;
+            borderImage.color = Color.green;
+        }
+        else
+        {
+
+            borderImage.color = Color.red;
         }
         NextQuestion();
     }
