@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="oneQR1" size="0.020000 0.020000" />
+    <ImageTarget name="fourQR" size="0.060000 0.060000" />
+    <ImageTarget name="threeQR" size="0.060000 0.060000" />
+    <ImageTarget name="twoQR" size="0.060000 0.060000" />
+    <ImageTarget name="oneQR" size="0.060000 0.060000" />
     <ImageTarget name="red2" size="0.050000 0.060053" />
     <ImageTarget name="green" size="0.050000 0.060053" />
-    <ImageTarget name="red" size="0.050000 0.060053" />
     <ImageTarget name="Dumbbell-QR" size="0.060000 0.060000" />
-    <ImageTarget name="Prog_Book" size="0.195000 0.254725" />
-    <ImageTarget name="Allenton_Hippo_QR_Code" size="0.200000 0.200000" />
   </Tracking>
 </QCARConfig>
