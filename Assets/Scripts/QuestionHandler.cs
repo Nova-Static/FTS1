@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Vuforia;
 using Image = UnityEngine.UI.Image;
@@ -16,12 +17,13 @@ public class QuestionHandler : MonoBehaviour
     [SerializeField] private TextMeshPro answer1, answer2;
     [SerializeField] private Image borderImage;
     private bool answer, seeRed, seeGreen = false;
+    [SerializeField] private Animator dragonAnimator;
     private void Start()
     {
 
-        VuforiaConfiguration.Instance.Vuforia.MaxSimultaneousImageTargets = 4;
         NextQuestion();
     }
+
 
     private void FixedUpdate()
     {
@@ -49,10 +51,12 @@ public class QuestionHandler : MonoBehaviour
         {
             this.answer = true;
             borderImage.color = Color.green;
+            dragonAnimator.SetTrigger("Correct");
         }
         else
         {
 
+            dragonAnimator.SetTrigger("Wrong");
             borderImage.color = Color.red;
         }
         NextQuestion();
@@ -78,5 +82,10 @@ public class QuestionHandler : MonoBehaviour
     {
         seeRed = false;
         CheckAnswer(1);
+    }
+    
+    public void GoToMainScene()
+    {
+        SceneManager.LoadScene(0);
     }
 }

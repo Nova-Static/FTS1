@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758fa6f9-6fd8-4f6d-96e6-ee96bb4aee95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_BaseColor.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_BaseColor.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Emissive.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Emissive.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Height.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Metallic.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Metallic.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Roughness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/dragon_dragon_Roughness.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/VuforiaConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/QuizScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/QuizScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ListManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ListManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +31,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Question.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragonAnimationHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFocusControllerNew.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Question.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CameraFocusControllerNew.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MenuHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ListManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/QuestionHandler.cs" />
     </changedPaths>

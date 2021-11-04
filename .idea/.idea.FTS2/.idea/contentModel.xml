@@ -23,10 +23,12 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraFocusControllerNew.cs" t="Include" />
+          <e p="DragonAnimationHandler.cs" t="Include" />
           <e p="ListManager.cs" t="Include" />
           <e p="MenuHandler.cs" t="Include" />
           <e p="Question.cs" t="Include" />
           <e p="QuestionHandler.cs" t="Include" />
+          <e p="SetVuforiaRuntime.cs" t="Include" />
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="Vuforia" t="Include">

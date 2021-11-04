@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using Vuforia;
 public class ListManager : MonoBehaviour
@@ -21,13 +22,15 @@ public class ListManager : MonoBehaviour
     [SerializeField] private GameObject deraakerkUI;
     [SerializeField] private GameObject rugUI;
 
+    [SerializeField] private GameObject target1, target2, target3, target4;
     [SerializeField] private Vuforia.IVuEngine vufori;
 
-    private void Start()
-    {
-        VuforiaConfiguration.Instance.Vuforia.MaxSimultaneousImageTargets = 1;
-    }
+ 
 
+    public void GoToMainScene()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void BringListUp()
     {
         List.SetActive(true);
@@ -44,6 +47,40 @@ public class ListManager : MonoBehaviour
 
     private void Update()
     {
+        
+        if (qr1seen)
+        {
+            target2.SetActive(false);
+            target3.SetActive(false);
+            target4.SetActive(false);
+        }
+
+        if (qr2seen)
+        {
+            target1.SetActive(false);
+            target3.SetActive(false);
+            target4.SetActive(false);
+        }
+        if (qr3seen)
+        {
+            target2.SetActive(false);
+            target1.SetActive(false);
+            target4.SetActive(false);
+        }
+        if (qr4seen)
+        {
+            target2.SetActive(false);
+            target3.SetActive(false);
+            target1.SetActive(false);
+        }
+
+        if (!qr1seen && !qr2seen && !qr3seen && !qr4seen)
+        {
+            target2.SetActive(true);
+            target3.SetActive(true);
+            target1.SetActive(true);
+            target4.SetActive(true);
+        }
         check1();
         check2();
         check3();
