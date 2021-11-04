@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="758fa6f9-6fd8-4f6d-96e6-ee96bb4aee95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Allenton_Hippo_QR_Code_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Allenton_Hippo_QR_Code_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FTS2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Dumbbell-QR_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Dumbbell-QR_scaled.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Prog_Book_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/Prog_Book_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/green_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/green_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/red2_scaled.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/Vuforia/ImageTargetTextures/Vuforia/red2_scaled.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapGame.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.dat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.dat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Vuforia/Vuforia.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QCAR/somedata16" beforeDir="false" afterPath="$PROJECT_DIR$/QCAR/somedata16" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +25,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Question.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFocusControllerNew.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Question.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/QuestionHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CameraFocusControllerNew.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="20MpeUHUmapVsnN2Chaq6ityyIB" />
