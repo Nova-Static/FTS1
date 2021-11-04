@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Vuforia;
+using Image = UnityEngine.UI.Image;
 using Random = UnityEngine.Random;
 
 public class QuestionHandler : MonoBehaviour
@@ -16,6 +18,8 @@ public class QuestionHandler : MonoBehaviour
     private bool answer, seeRed, seeGreen = false;
     private void Start()
     {
+
+        VuforiaConfiguration.Instance.Vuforia.MaxSimultaneousImageTargets = 4;
         NextQuestion();
     }
 

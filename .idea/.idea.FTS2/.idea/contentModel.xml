@@ -24,6 +24,7 @@
         <e p="Scripts" t="Include">
           <e p="CameraFocusControllerNew.cs" t="Include" />
           <e p="ListManager.cs" t="Include" />
+          <e p="MenuHandler.cs" t="Include" />
           <e p="Question.cs" t="Include" />
           <e p="QuestionHandler.cs" t="Include" />
         </e>

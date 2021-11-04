@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
-
+using Vuforia;
 public class ListManager : MonoBehaviour
 {
     public GameObject List;
@@ -20,8 +20,14 @@ public class ListManager : MonoBehaviour
     [SerializeField] private GameObject martiniUI;
     [SerializeField] private GameObject deraakerkUI;
     [SerializeField] private GameObject rugUI;
-    
-    
+
+    [SerializeField] private Vuforia.IVuEngine vufori;
+
+    private void Start()
+    {
+        VuforiaConfiguration.Instance.Vuforia.MaxSimultaneousImageTargets = 1;
+    }
+
     public void BringListUp()
     {
         List.SetActive(true);
