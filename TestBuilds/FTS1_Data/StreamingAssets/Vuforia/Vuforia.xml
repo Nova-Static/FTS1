@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="QRRubberBand" size="0.050000 0.050000" />
+    <ImageTarget name="QRDumbell" size="0.050000 0.050000" />
+    <ImageTarget name="four" size="0.028000 0.021505" />
+    <ImageTarget name="three" size="0.028000 0.021505" />
+    <ImageTarget name="two" size="0.028000 0.021505" />
+    <ImageTarget name="one" size="0.028000 0.021505" />
+    <ImageTarget name="red2" size="0.050000 0.060053" />
+    <ImageTarget name="green" size="0.050000 0.060053" />
+    <ImageTarget name="Dumbbell-QR" size="0.060000 0.060000" />
+  </Tracking>
+</QCARConfig>
