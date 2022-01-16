@@ -271,8 +271,12 @@ public class FlatCalendar2 : MonoBehaviour
         }
         else filePath = "";
 
+        removeAllCalendarEvents();
+        installDemoData();
+        
         // Show events
         populateEventVisualizer();
+        gameObject.SetActive(false);
 
     }    
     
@@ -855,23 +859,23 @@ public class FlatCalendar2 : MonoBehaviour
 
 	public void installDemoData()
 	{
-		addEvent(2016,3,7,  new EventObj("Event","Description"));
-		addEvent(2016,3,7,  new EventObj("Event","Description"));
-		addEvent(2016,3,10, new EventObj("Event","Description"));
-		addEvent(2016,3,22, new EventObj("Event","Description"));
-		addEvent(2016,4,5,  new EventObj("Event","Description"));
-		addEvent(2016,4,5,  new EventObj("Event","Description"));
-		addEvent(2016,4,5,  new EventObj("Event","Description"));
-		addEvent(2016,4,15, new EventObj("Event","Description"));
-		addEvent(2016,4,22, new EventObj("Event","Description"));
-		addEvent(2016,5,1,  new EventObj("Event","Description"));
-		addEvent(2016,5,2,  new EventObj("Event","Description"));
-		addEvent(2016,5,3,  new EventObj("Event","Description"));
-		addEvent(2016,5,15, new EventObj("Event","Description"));
-		addEvent(2016,6,2,  new EventObj("Event","Description"));
-		addEvent(2016,6,3,  new EventObj("Event","Description"));
-		addEvent(2016,6,4,  new EventObj("Event","Description"));
-		addEvent(2016,6,22, new EventObj("Event","Description"));
+        addEvent(2022,1,16,  new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 0, 0)));
+        addEvent(2022,1,16,  new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 45, 0)));
+        addEvent(2022,1,18, new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 30, 0)));
+        addEvent(2022,1,18, new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 30, 0)));
+        addEvent(2022,1,19,  new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 0, 0)));
+        addEvent(2022,1,19,  new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 30, 0)));
+        addEvent(2022,1,19,  new EventObj("Meeting","Meeting with boss", new TimeSpan(9, 30, 0)));
+        addEvent(2022,1,19, new EventObj("Meeting","Meeting with boss", new TimeSpan(10, 15, 0)));
+        addEvent(2022,1,24, new EventObj("Meeting","Meeting with boss", new TimeSpan(14, 30, 0)));
+        addEvent(2022,2,7,  new EventObj("Meeting","Meeting with boss", new TimeSpan(16, 30, 0)));
+        addEvent(2022,2,8,  new EventObj("Meeting","Meeting with boss", new TimeSpan(15, 30, 0)));
+        addEvent(2022,2,9,  new EventObj("Meeting","Meeting with boss", new TimeSpan(10, 30, 0)));
+        addEvent(2022,2,10, new EventObj("Meeting","Meeting with boss", new TimeSpan(9, 30, 0)));
+        addEvent(2022,2,11,  new EventObj("Meeting","Meeting with boss", new TimeSpan(14, 30, 0)));
+        addEvent(2022,2,12,  new EventObj("Meeting","Meeting with boss", new TimeSpan(15, 30, 0)));
+        addEvent(2022,2,13,  new EventObj("Meeting","Meeting with boss", new TimeSpan(13, 30, 0)));
+        addEvent(2022,2,14, new EventObj("Meeting","Meeting with boss", new TimeSpan(8, 30, 0)));
 
 
 		//updateCalendar(currentTime.month,currentTime.year);
@@ -1118,7 +1122,7 @@ public class FlatCalendar2 : MonoBehaviour
 		events_list.Clear();
 	}
 
-	public static List<EventObj> getEventList(int year, int month, int day)
+	public  List<EventObj> getEventList(int year, int month, int day)
 	{
 		List<EventObj> list = new List<EventObj>();
 
