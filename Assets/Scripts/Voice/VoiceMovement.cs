@@ -10,6 +10,7 @@ public class VoiceMovement : MonoBehaviour
 {
     private KeywordRecognizer _keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
+    [SerializeField] private UIInteractions UIInteractions;
 
     public Text voiceText;
     
@@ -17,6 +18,12 @@ public class VoiceMovement : MonoBehaviour
     {
         actions.Add("how are you", Good);
         actions.Add("hello", Forward);
+        actions.Add("open calendar", UIInteractions.CalendarPress);
+        actions.Add("close calendar", UIInteractions.BackPressCalendar);
+        actions.Add("open account", UIInteractions.AccountPress);
+        actions.Add("close account", UIInteractions.BackPressAccount);
+        actions.Add("open camera", UIInteractions.AREnable);
+        actions.Add("close camera", UIInteractions.AREnable);
         _keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
         _keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
         _keywordRecognizer.Start();
