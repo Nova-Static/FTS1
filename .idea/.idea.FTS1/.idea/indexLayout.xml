@@ -35,6 +35,7 @@
       <Path>Logs</Path>
       <Path>QCAR</Path>
       <Path>Temp</Path>
+      <Path>TestBuilds</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
