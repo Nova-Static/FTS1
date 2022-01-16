@@ -110,17 +110,22 @@ public class FlatCalendarStyle2
         // ===========================================
         if (style == (int) FlatCalendarStyle2.COLORS_TYPE.BLUE)
 		{
-            color_slideHeader = new Color32(3, 68, 73, 255);
-            color_slideSubHeader = new Color32(4, 91, 98, 255);
-            color_slideBody = new Color32(5, 114, 122, 255);
+            //color_slideHeader = new Color32(3, 68, 73, 255);
+            color_slideHeader = new Color32(2, 48, 71, 255);
+            //color_slideSubHeader = new Color32(4, 91, 98, 255);
+            color_slideSubHeader = new Color32(2, 48, 71, 255);
+            //color_slideBody = new Color32(5, 114, 122, 255);
+            color_slideBody = new Color32(2, 48, 71, 255);
 
-            color_topGrid = new Color32(3, 68, 83, 255);
+            //color_topGrid = new Color32(3, 68, 83, 255);
+            color_topGrid = new Color32(2, 48, 71, 255);
 
             color_dayTextNormal = new Color32(255, 255, 255, 255);
             color_dayTextNormalGrid = new Color32(123, 167, 171, 255);
 
             color_bubbleEvent = new Color32(210, 120, 15, 255);
-            color_bubbleSelectionMarker = new Color32(228, 173, 67, 255);
+            //color_bubbleSelectionMarker = new Color32(228, 173, 67, 255);
+            color_bubbleSelectionMarker = new Color32(251, 133, 0, 255);
             color_EventObj = new Color32(220, 230, 230, 120);
         }
 
