@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     {
         try
         {
-            MainBot = new OscovaBot();
+            MainBot = new OscovaBot(); 
             OscovaBot.Logger.LogReceived += (s, o) =>
             {
                 Debug.Log($"OscovaBot: {o.Log}");
