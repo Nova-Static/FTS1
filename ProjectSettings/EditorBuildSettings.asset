@@ -17,9 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/FlatCalendar/Scene/FlatCalendar2ExampleDemo.unity
     guid: a708b71228678ac478adf6af3486c59a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CalendarScene.unity
     guid: 371200fd8aa336a45ba4d7dde17700f6
+  - enabled: 1
+    path: Assets/Scenes/FTS4.unity
+    guid: 74825b58ef318ed4aa50241dbca1570b
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
