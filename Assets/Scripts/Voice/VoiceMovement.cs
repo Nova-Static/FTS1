@@ -2,41 +2,118 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TextSpeech;
 using UnityEngine;
+using UnityEngine.Android;
 using UnityEngine.UI;
+#if UNITY_EDITOR
 using UnityEngine.Windows.Speech;
-
+#endif
 public class VoiceMovement : MonoBehaviour
 {
-    private KeywordRecognizer _keywordRecognizer;
+  
+    [SerializeField] private FlatCalendar2 flatCalendar2;
+    
+    public Text voiceText;
+    // private KeywordRecognizer _keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
     [SerializeField] private UIInteractions UIInteractions;
-    [SerializeField] private FlatCalendar2 flatCalendar2;
-    public Text voiceText;
     
     private void Start()
     {
-        actions.Add("how are you", Good);
-        actions.Add("hello", Forward);
-        actions.Add("open calendar", UIInteractions.CalendarPress);
-        actions.Add("close calendar", UIInteractions.BackPressCalendar);
-        actions.Add("open account", UIInteractions.AccountPress);
-        actions.Add("close account", UIInteractions.BackPressAccount);
-        actions.Add("open camera", UIInteractions.AREnable);
-        actions.Add("close camera", UIInteractions.AREnable);
-        actions.Add("create gym schedule", GenerateTrainingSchedule);
-        _keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
-        _keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
-        _keywordRecognizer.Start();
+        // actions.Add("how are you", Good);
+        // actions.Add("hello", Forward);
+        // actions.Add("open calendar", UIInteractions.CalendarPress);
+        // actions.Add("close calendar", UIInteractions.BackPressCalendar);
+        // actions.Add("open account", UIInteractions.AccountPress);
+        // actions.Add("close account", UIInteractions.BackPressAccount);
+        // actions.Add("open camera", UIInteractions.AREnable);
+        // actions.Add("close camera", UIInteractions.AREnable);
+        // actions.Add("create gym schedule", GenerateTrainingSchedule);
+        // _keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());
+        // _keywordRecognizer.OnPhraseRecognized += RecognizedSpeech;
+        // _keywordRecognizer.Start();
     }
 
-    private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
-    {
-        Debug.Log(speech.text);
-        voiceText.text = voiceText.text +"\n " +speech.text;
-        actions[speech.text].Invoke();
-    }
-
+    // private void RecognizedSpeech(PhraseRecognizedEventArgs speech)
+    // {
+    //     Debug.Log(speech.text);
+    //     voiceText.text = voiceText.text +"\n " +speech.text;
+    //     actions[speech.text].Invoke();
+    // }
+// #elif UNITY_ANDROID
+//     private const string LANG_CODE = "en-US";
+//     private void Start()
+//     {
+//         Setup(LANG_CODE);
+//         SpeechToText.instance.onResultCallback = OnFinalSpeechResult;
+//         SpeechToText.instance.onPartialResultsCallback = OnPartialResult;
+//         TextToSpeech.instance.onStartCallBack = OnSpeakStart;
+//         TextToSpeech.instance.onDoneCallback = OnSpeakStop;
+//         CheckPermission();
+//     }
+//
+//     void CheckPermission()
+//     {
+//         #if UNITY_ANDROID
+//         if (!Permission.HasUserAuthorizedPermission(Permission.Microphone))
+//         {
+//             Permission.RequestUserPermission(Permission.Microphone);
+//         }
+//         #endif
+//     }
+//     
+//     #region Text_To_speech
+//     public void StartSpeaking(string message)
+//     {
+//         TextToSpeech.instance.StartSpeak(message);
+//     }
+//
+//     public void StopSpeaking()
+//     {
+//         TextToSpeech.instance.StopSpeak();
+//     }
+//
+//     void OnSpeakStart()
+//     {
+//         
+//     }
+//
+//     void OnSpeakStop()
+//     {
+//         
+//     }
+//
+//     #endregion
+//
+//     #region Speech to Text
+//
+//     public void StartListening()
+//     {
+//         SpeechToText.instance.StartRecording();
+//     }
+//
+//     public void StopListening()
+//     {
+//         SpeechToText.instance.StopRecording();
+//     }
+//
+//     void OnFinalSpeechResult(string result)
+//     {
+//         
+//     }
+//     
+//     void OnPartialResult(string result)
+//     {
+//         
+//     }
+//     #endregion
+//     void Setup(string code)
+//     {
+//         TextToSpeech.instance.Setting(code, 1 , 1);
+//         SpeechToText.instance.Setting(code);
+//     }
+// #endif
     private void Forward()
     {
         transform.Translate(1, 0 , 0);
@@ -47,7 +124,7 @@ public class VoiceMovement : MonoBehaviour
         voiceText.text = voiceText.text +"\n " + "Good";
     }
 
-    void GenerateTrainingSchedule()
+    public void GenerateTrainingSchedule()
     {
        
 

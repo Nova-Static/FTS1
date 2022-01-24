@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "file:com.ptc.vuforia.engine-10.2.5.tgz",
+      "version": "file:com.ptc.vuforia.engine-10.3.2.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -16,6 +16,13 @@
     },
     "com.unity.collab-proxy": {
       "version": "1.11.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.device-simulator": {
+      "version": "3.0.3-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -228,6 +235,13 @@
         "com.unity.xr.arsubsystems": "4.0.9"
       },
       "url": "https://packages.unity.com"
+    },
+    "jillejr.newtonsoft.json-for-unity": {
+      "version": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#12.0.302",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "49626d29e66845207b8fb806b0dfe0112527907a"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

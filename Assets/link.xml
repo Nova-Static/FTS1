@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<linker>
+    
+
+    <assembly fullname="Syn.Bot" preserve="all"/>
+    <assembly fullname="Syn.Bot.Oscova" preserve="all"/>
+    <assembly fullname="Syn.Workspace" preserve="all"/>
+    <assembly fullname="Syn.Workspace">
+        <type fullname="Syn.Workspace.WorkspacGraph.LoadFromString">
+            <method signature="System.Void .ctor(System.Type)" />
+        </type>
+    </assembly>
+</linker>

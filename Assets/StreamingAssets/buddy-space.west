@@ -1,0 +1,822 @@
+{
+  "GraphPan": {
+    "X": 2145.17244813037,
+    "Y": 3555.2307498180739
+  },
+  "GraphZoom": 0.549999999999998,
+  "GraphVersion": "1.6.0.0",
+  "UserNote": "",
+  "Nodes": [
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.DialogNode, Syn.Bot",
+      "DialogName": "greet_dialog",
+      "IntentAlias": null,
+      "Domain": null,
+      "Events": [],
+      "Actions": [],
+      "Id": "77b0170a-c61c-47e6-b531-f7a1bef8da8b",
+      "IsFolded": false,
+      "DisplayName": "Dialog (greet_dialog)",
+      "Position": {
+        "X": 4169.72268907563,
+        "Y": 3655.993058901885
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.OscovaPanelNode, Syn.Bot",
+      "Id": "a04128f7-50a3-480b-a275-0f49cbba23c3",
+      "IsFolded": false,
+      "DisplayName": "Oscova Test Panel",
+      "Position": {
+        "X": 5067.4169115198529,
+        "Y": 3096.31423772306
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.OscovaBotNode, Syn.Bot",
+      "Entities": [],
+      "Traits": [],
+      "Scripts": [],
+      "Filters": [],
+      "BotSettings": null,
+      "UserSettings": null,
+      "SimlNodes": [],
+      "Id": "af1d4dd5-2e9b-4c23-b012-086e795cbebe",
+      "IsFolded": false,
+      "DisplayName": "Oscova Bot",
+      "Position": {
+        "X": 4791.8419134185369,
+        "Y": 3095.008055601088
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.IntentNode, Syn.Bot",
+      "IntentName": "greet_intent",
+      "MinScore": 0.0,
+      "IntentContexts": [],
+      "Prompts": [],
+      "AutoEntity": null,
+      "Fallback": null,
+      "Trait": null,
+      "Event": null,
+      "Action": null,
+      "Id": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "IsFolded": false,
+      "DisplayName": "Intent (greet_intent)",
+      "Position": {
+        "X": 3579.1103693759137,
+        "Y": 3333.1754408548941
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ResponseNode, Syn.Bot",
+      "Priority": "Normal",
+      "Hint": null,
+      "Type": null,
+      "Format": null,
+      "ResponseMessages": [],
+      "Children": [],
+      "Id": "4d1fd021-783f-4862-904b-4d5bea7b844d",
+      "IsFolded": false,
+      "DisplayName": "Response",
+      "Position": {
+        "X": 3346.93706620377,
+        "Y": 3829.1003081178637
+      }
+    },
+    {
+      "$type": "Syn.Workspace.Nodes.InputOutput.InputTextNode, Syn.Workspace",
+      "OutputValue": "Hi there! What's up? ",
+      "Id": "d255a212-b97e-4a56-8d58-f1df5947058e",
+      "IsFolded": false,
+      "DisplayName": "Input Text",
+      "Position": {
+        "X": 3033.4718565747953,
+        "Y": 4033.4059603406436
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": null,
+      "ExpressionName": null,
+      "Id": "95e6c308-34c9-4e74-8e0e-2d011e1caaf5",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 66.137960725355356,
+        "Y": 7.6443356695660327
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.IntentNode, Syn.Bot",
+      "IntentName": "explain_intent",
+      "MinScore": 0.0,
+      "IntentContexts": [],
+      "Prompts": [],
+      "AutoEntity": null,
+      "Fallback": null,
+      "Trait": null,
+      "Event": null,
+      "Action": null,
+      "Id": "8af877d3-019c-43fe-9591-5679a543f609",
+      "IsFolded": false,
+      "DisplayName": "Intent (explain_intent)",
+      "Position": {
+        "X": 3574.8328566857954,
+        "Y": 4252.2851644698476
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ResponseNode, Syn.Bot",
+      "Priority": "High",
+      "Hint": null,
+      "Type": null,
+      "Format": null,
+      "ResponseMessages": [],
+      "Children": [],
+      "Id": "1a56d33b-4a6e-4626-ab0f-3762747a222a",
+      "IsFolded": false,
+      "DisplayName": "Response",
+      "Position": {
+        "X": 3330.9381803267288,
+        "Y": 4622.7210732463109
+      }
+    },
+    {
+      "$type": "Syn.Workspace.Nodes.InputOutput.InputTextNode, Syn.Workspace",
+      "OutputValue": "I am your virtual buddy. I can help you plan your fitness sessions or show you how to exercise properly",
+      "Id": "3a67780c-6974-4b8d-a1fe-436accb0e31b",
+      "IsFolded": false,
+      "DisplayName": "Input Text",
+      "Position": {
+        "X": 2640.3631959715563,
+        "Y": 4826.2845634197056
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.IntentNode, Syn.Bot",
+      "IntentName": "bot_mood_intent",
+      "MinScore": 0.0,
+      "IntentContexts": [],
+      "Prompts": [],
+      "AutoEntity": null,
+      "Fallback": null,
+      "Trait": null,
+      "Event": null,
+      "Action": null,
+      "Id": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "IsFolded": false,
+      "DisplayName": "Intent (bot_mood_intent)",
+      "Position": {
+        "X": 3536.1541331905155,
+        "Y": 2373.5412077901206
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ResponseNode, Syn.Bot",
+      "Priority": "Normal",
+      "Hint": null,
+      "Type": null,
+      "Format": null,
+      "ResponseMessages": [],
+      "Children": [],
+      "Id": "550ffb70-eaf2-4f80-b1ca-5e55e123e30d",
+      "IsFolded": false,
+      "DisplayName": "Response",
+      "Position": {
+        "X": 3307.3588301103832,
+        "Y": 2660.5617230505713
+      }
+    },
+    {
+      "$type": "Syn.Workspace.Nodes.InputOutput.InputTextNode, Syn.Workspace",
+      "OutputValue": "I'm doing great! How are you today?",
+      "Id": "d214e252-19da-4295-8d1a-c485a06b8197",
+      "IsFolded": false,
+      "DisplayName": "Input Text",
+      "Position": {
+        "X": 2982.0190865206409,
+        "Y": 2789.1514666403145
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ResponseNode, Syn.Bot",
+      "Priority": "Normal",
+      "Hint": null,
+      "Type": null,
+      "Format": null,
+      "ResponseMessages": [],
+      "Children": [],
+      "Id": "264b3ed2-b30c-4393-b9f3-180f64f561c3",
+      "IsFolded": false,
+      "DisplayName": "Response",
+      "Position": {
+        "X": 3335.4162595230719,
+        "Y": 2047.2175584432471
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.IntentNode, Syn.Bot",
+      "IntentName": "user_goodmood_intent",
+      "MinScore": 0.0,
+      "IntentContexts": [],
+      "Prompts": [],
+      "AutoEntity": null,
+      "Fallback": null,
+      "Trait": null,
+      "Event": null,
+      "Action": null,
+      "Id": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "IsFolded": false,
+      "DisplayName": "Intent (user_goodmood_intent)",
+      "Position": {
+        "X": 3511.2765658833769,
+        "Y": 1753.2169201926074
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.DialogNode, Syn.Bot",
+      "DialogName": "mood_dialog",
+      "IntentAlias": null,
+      "Domain": null,
+      "Events": [],
+      "Actions": [],
+      "Id": "39b8fada-3c2a-4904-b0dc-8536bcf942ac",
+      "IsFolded": false,
+      "DisplayName": "Dialog (mood_dialog)",
+      "Position": {
+        "X": 3996.2939628183294,
+        "Y": 1729.1887493874196
+      }
+    },
+    {
+      "$type": "Syn.Workspace.Nodes.InputOutput.InputTextNode, Syn.Workspace",
+      "OutputValue": "Awesome!",
+      "Id": "78cb936e-7eaf-468e-ab77-4289415133ca",
+      "IsFolded": false,
+      "DisplayName": "Input Text",
+      "Position": {
+        "X": 3101.383647815132,
+        "Y": 2167.9858590545018
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ResponseNode, Syn.Bot",
+      "Priority": "Normal",
+      "Hint": null,
+      "Type": null,
+      "Format": null,
+      "ResponseMessages": [],
+      "Children": [],
+      "Id": "d6780964-2774-435d-8990-84c6b5adf43f",
+      "IsFolded": false,
+      "DisplayName": "Response",
+      "Position": {
+        "X": 3296.3550200101895,
+        "Y": 1088.8381748673403
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.IntentNode, Syn.Bot",
+      "IntentName": "user_badmood_intent",
+      "MinScore": 0.0,
+      "IntentContexts": [],
+      "Prompts": [],
+      "AutoEntity": null,
+      "Fallback": null,
+      "Trait": null,
+      "Event": null,
+      "Action": null,
+      "Id": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "IsFolded": false,
+      "DisplayName": "Intent (user_badmood_intent)",
+      "Position": {
+        "X": 3510.8331488644808,
+        "Y": 877.126614927455
+      }
+    },
+    {
+      "$type": "Syn.Workspace.Nodes.InputOutput.InputTextNode, Syn.Workspace",
+      "OutputValue": "Sorry to hear that... maybe some fitness might cheer you up?",
+      "Id": "1cca1aa0-0001-4006-b05b-fe1f484384f0",
+      "IsFolded": false,
+      "DisplayName": "Input Text",
+      "Position": {
+        "X": 2822.6914265517062,
+        "Y": 1293.3959981929702
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "not feeling well",
+      "ExpressionName": null,
+      "Id": "fbb37e32-3cfb-4953-bb27-ae72e80f434c",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3077.8592816711948,
+        "Y": 720.97659856482721
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "feel bad",
+      "ExpressionName": null,
+      "Id": "6ad4ab8c-82e3-47aa-a12d-b88f90e345f6",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3081.1926150045283,
+        "Y": 892.64326523149384
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "feeling sick",
+      "ExpressionName": null,
+      "Id": "a9123a9b-13ae-41c6-8438-39fee39cecb1",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3079.5259483378613,
+        "Y": 548.47659856482676
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "not doing too good",
+      "ExpressionName": null,
+      "Id": "57d9f9a8-9029-4768-82b6-28750008eb61",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3079.5259483378613,
+        "Y": 363.47659856482665
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "feeling well",
+      "ExpressionName": null,
+      "Id": "ed1e53cb-3884-4d12-ad8d-2b9dc30d54d2",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3048.7523626259263,
+        "Y": 1689.1263498320932
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "I'm alright",
+      "ExpressionName": null,
+      "Id": "9be29a98-b8be-427b-8b4f-0f9d81e5b65c",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3050.7523626259263,
+        "Y": 1537.126349832093
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "doing good",
+      "ExpressionName": null,
+      "Id": "c5d4a00e-1991-4c7e-83bd-f5b4a4f57210",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3047.2069080804717,
+        "Y": 1374.3990771048188
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "I'm happy",
+      "ExpressionName": null,
+      "Id": "7ab51899-20c7-4361-8a6d-016bf67afb39",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3048.7523626259263,
+        "Y": 1842.1263498320934
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "feel great",
+      "ExpressionName": null,
+      "Id": "bb0df1c9-855a-42cf-8372-ab4ab0211c5e",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3047.4847484032034,
+        "Y": 1998.7976291891316
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "how are you feeling",
+      "ExpressionName": null,
+      "Id": "7fbfe6dd-84ff-48ef-9c8d-b79ec7463f5e",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3020.3953526768109,
+        "Y": 2278.1225638863589
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "how are you doing",
+      "ExpressionName": null,
+      "Id": "90093aa2-2e30-40db-ac4b-a51ca41abffd",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3019.2842415656996,
+        "Y": 2435.9003416641367
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "how are you today",
+      "ExpressionName": null,
+      "Id": "6e3e61f9-4062-4659-809e-faf797af118a",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3017.062019343477,
+        "Y": 2592.5670083308032
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "what's up buddy",
+      "ExpressionName": null,
+      "Id": "bc758b8d-18f3-4b01-ab69-256abb0a8739",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3056.663750945208,
+        "Y": 2891.4641667279607
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "nice to meet you buddy",
+      "ExpressionName": null,
+      "Id": "beb72d3b-3388-4996-845c-f1c24b0e35b0",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3052.3780366594933,
+        "Y": 3045.7498810136758
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "hello there buddy",
+      "ExpressionName": null,
+      "Id": "a2f197a3-3552-4ee1-b110-06abb209ecbb",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3052.3780366594938,
+        "Y": 3204.3213095851047
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "good morning buddy",
+      "ExpressionName": null,
+      "Id": "36524b83-9bb4-453f-96a2-9835e7d632ee",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3050.9494652309222,
+        "Y": 3365.7498810136767
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "hey buddy",
+      "ExpressionName": null,
+      "Id": "8ed3e448-f4e2-4f21-b44b-4430bcaffd4b",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3045.2351795166364,
+        "Y": 3534.3213095851056
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "yo buddy",
+      "ExpressionName": null,
+      "Id": "afd3f326-7aa4-4663-b35f-02404c2fb6cd",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3043.3670476485049,
+        "Y": 3848.1674634312603
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "hi buddy",
+      "ExpressionName": null,
+      "Id": "e5c1092e-367d-46d2-b6a2-3af5b975ef5a",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 3043.9164981979552,
+        "Y": 3689.5960348598314
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "what can you do for me",
+      "ExpressionName": null,
+      "Id": "f225c3b2-2b23-492e-88a2-717a0e6b7df9",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 2996.6194178273431,
+        "Y": 4151.9657648030925
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "how can you help me",
+      "ExpressionName": null,
+      "Id": "fcd4ec97-4fdb-4fdb-b344-5611da3d3db8",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 2994.1194178273431,
+        "Y": 4304.4657648030934
+      }
+    },
+    {
+      "$type": "Syn.Bot.Oscova.WorkspaceNodes.ExpressionNode, Syn.Bot",
+      "Value": "can you explain what you can do",
+      "ExpressionName": null,
+      "Id": "09fda827-dcd8-4fce-8777-2c3678f8bab6",
+      "IsFolded": false,
+      "DisplayName": "Expression",
+      "Position": {
+        "X": 2992.8694178273436,
+        "Y": 4464.4657648030934
+      }
+    }
+  ],
+  "Connections": [
+    {
+      "FromNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "FromPortName": "Output",
+      "ToNodeId": "77b0170a-c61c-47e6-b531-f7a1bef8da8b",
+      "ToPortName": "Intents"
+    },
+    {
+      "FromNodeId": "8af877d3-019c-43fe-9591-5679a543f609",
+      "FromPortName": "Output",
+      "ToNodeId": "77b0170a-c61c-47e6-b531-f7a1bef8da8b",
+      "ToPortName": "Intents"
+    },
+    {
+      "FromNodeId": "af1d4dd5-2e9b-4c23-b012-086e795cbebe",
+      "FromPortName": "Output",
+      "ToNodeId": "a04128f7-50a3-480b-a275-0f49cbba23c3",
+      "ToPortName": "OscovaBotNode"
+    },
+    {
+      "FromNodeId": "77b0170a-c61c-47e6-b531-f7a1bef8da8b",
+      "FromPortName": "Output",
+      "ToNodeId": "af1d4dd5-2e9b-4c23-b012-086e795cbebe",
+      "ToPortName": "Dialogs"
+    },
+    {
+      "FromNodeId": "39b8fada-3c2a-4904-b0dc-8536bcf942ac",
+      "FromPortName": "Output",
+      "ToNodeId": "af1d4dd5-2e9b-4c23-b012-086e795cbebe",
+      "ToPortName": "Dialogs"
+    },
+    {
+      "FromNodeId": "bc758b8d-18f3-4b01-ab69-256abb0a8739",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "beb72d3b-3388-4996-845c-f1c24b0e35b0",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "a2f197a3-3552-4ee1-b110-06abb209ecbb",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "36524b83-9bb4-453f-96a2-9835e7d632ee",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "8ed3e448-f4e2-4f21-b44b-4430bcaffd4b",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "e5c1092e-367d-46d2-b6a2-3af5b975ef5a",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "afd3f326-7aa4-4663-b35f-02404c2fb6cd",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "4d1fd021-783f-4862-904b-4d5bea7b844d",
+      "FromPortName": "Output",
+      "ToNodeId": "dc7553f7-aebb-468b-a978-e8fb664ccd92",
+      "ToPortName": "Response"
+    },
+    {
+      "FromNodeId": "d255a212-b97e-4a56-8d58-f1df5947058e",
+      "FromPortName": "OutputValue",
+      "ToNodeId": "4d1fd021-783f-4862-904b-4d5bea7b844d",
+      "ToPortName": "Text"
+    },
+    {
+      "FromNodeId": "f225c3b2-2b23-492e-88a2-717a0e6b7df9",
+      "FromPortName": "Output",
+      "ToNodeId": "8af877d3-019c-43fe-9591-5679a543f609",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "fcd4ec97-4fdb-4fdb-b344-5611da3d3db8",
+      "FromPortName": "Output",
+      "ToNodeId": "8af877d3-019c-43fe-9591-5679a543f609",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "09fda827-dcd8-4fce-8777-2c3678f8bab6",
+      "FromPortName": "Output",
+      "ToNodeId": "8af877d3-019c-43fe-9591-5679a543f609",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "1a56d33b-4a6e-4626-ab0f-3762747a222a",
+      "FromPortName": "Output",
+      "ToNodeId": "8af877d3-019c-43fe-9591-5679a543f609",
+      "ToPortName": "Response"
+    },
+    {
+      "FromNodeId": "3a67780c-6974-4b8d-a1fe-436accb0e31b",
+      "FromPortName": "OutputValue",
+      "ToNodeId": "1a56d33b-4a6e-4626-ab0f-3762747a222a",
+      "ToPortName": "Text"
+    },
+    {
+      "FromNodeId": "7fbfe6dd-84ff-48ef-9c8d-b79ec7463f5e",
+      "FromPortName": "Output",
+      "ToNodeId": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "90093aa2-2e30-40db-ac4b-a51ca41abffd",
+      "FromPortName": "Output",
+      "ToNodeId": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "6e3e61f9-4062-4659-809e-faf797af118a",
+      "FromPortName": "Output",
+      "ToNodeId": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "550ffb70-eaf2-4f80-b1ca-5e55e123e30d",
+      "FromPortName": "Output",
+      "ToNodeId": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "ToPortName": "Response"
+    },
+    {
+      "FromNodeId": "d214e252-19da-4295-8d1a-c485a06b8197",
+      "FromPortName": "OutputValue",
+      "ToNodeId": "550ffb70-eaf2-4f80-b1ca-5e55e123e30d",
+      "ToPortName": "Text"
+    },
+    {
+      "FromNodeId": "78cb936e-7eaf-468e-ab77-4289415133ca",
+      "FromPortName": "OutputValue",
+      "ToNodeId": "264b3ed2-b30c-4393-b9f3-180f64f561c3",
+      "ToPortName": "Text"
+    },
+    {
+      "FromNodeId": "bb0df1c9-855a-42cf-8372-ab4ab0211c5e",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "7ab51899-20c7-4361-8a6d-016bf67afb39",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "ed1e53cb-3884-4d12-ad8d-2b9dc30d54d2",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "9be29a98-b8be-427b-8b4f-0f9d81e5b65c",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "c5d4a00e-1991-4c7e-83bd-f5b4a4f57210",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "264b3ed2-b30c-4393-b9f3-180f64f561c3",
+      "FromPortName": "Output",
+      "ToNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "ToPortName": "Response"
+    },
+    {
+      "FromNodeId": "ec0adacd-bde6-4a7f-877a-053e26eaa2d3",
+      "FromPortName": "Output",
+      "ToNodeId": "39b8fada-3c2a-4904-b0dc-8536bcf942ac",
+      "ToPortName": "Intents"
+    },
+    {
+      "FromNodeId": "1deaf910-b7f6-4c97-99c0-5151afd5ec1e",
+      "FromPortName": "Output",
+      "ToNodeId": "39b8fada-3c2a-4904-b0dc-8536bcf942ac",
+      "ToPortName": "Intents"
+    },
+    {
+      "FromNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "FromPortName": "Output",
+      "ToNodeId": "39b8fada-3c2a-4904-b0dc-8536bcf942ac",
+      "ToPortName": "Intents"
+    },
+    {
+      "FromNodeId": "1cca1aa0-0001-4006-b05b-fe1f484384f0",
+      "FromPortName": "OutputValue",
+      "ToNodeId": "d6780964-2774-435d-8990-84c6b5adf43f",
+      "ToPortName": "Text"
+    },
+    {
+      "FromNodeId": "57d9f9a8-9029-4768-82b6-28750008eb61",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "57d9f9a8-9029-4768-82b6-28750008eb61",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "a9123a9b-13ae-41c6-8438-39fee39cecb1",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "fbb37e32-3cfb-4953-bb27-ae72e80f434c",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "6ad4ab8c-82e3-47aa-a12d-b88f90e345f6",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Expressions"
+    },
+    {
+      "FromNodeId": "d6780964-2774-435d-8990-84c6b5adf43f",
+      "FromPortName": "Output",
+      "ToNodeId": "28eab86c-a1de-4c69-808d-45013be812aa",
+      "ToPortName": "Response"
+    }
+  ]
+}

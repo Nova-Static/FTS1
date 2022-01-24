@@ -25,6 +25,7 @@ public class UIInteractions : MonoBehaviour
     public Camera MainCamera;
     public Camera VuforiaCamera;
 
+    public GameObject STT, TTS; 
     private void Start()
     {
         //get initial positions for account and calendar buttons
@@ -74,6 +75,8 @@ public class UIInteractions : MonoBehaviour
         //enable vuforia
         if (VuforiaCamera.gameObject.activeSelf == false)
         {
+            STT.SetActive(false);
+            TTS.SetActive(false);
             SwitchVuforia(); //enable Vuforia camera
             Dragon.SetActive(false);
             BGCanvas.gameObject.SetActive(false);
@@ -85,6 +88,8 @@ public class UIInteractions : MonoBehaviour
         }
         else //disable vuforia
         {
+            STT.SetActive(true);
+            TTS.SetActive(true);
             Dragon.SetActive(true);
             BGCanvas.gameObject.SetActive(true);
             //animations
