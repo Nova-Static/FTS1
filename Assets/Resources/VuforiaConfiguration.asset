@@ -23,8 +23,8 @@ MonoBehaviour:
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
-    version: 10.3.2
-    eulaAcceptedVersions: '{"Values":["10.2","10.3"]}'
+    version: 10.4.4
+    eulaAcceptedVersions: '{"Values":["10.2","10.3","0.0","10.4"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -39,6 +39,7 @@ MonoBehaviour:
     autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
+    thirdPartyARCoreClientDetected: 0
   playmode:
     mSequencePath: 
     playModeType: 0

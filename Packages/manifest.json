@@ -1,6 +1,6 @@
 {
-  "dependencies": {
-    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.3.2.tgz",
+    "dependencies": {
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.4.4.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "1.11.2",
     "com.unity.device-simulator": "3.0.3-preview",
@@ -50,6 +50,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "scopedRegistries": []
+  }
 }

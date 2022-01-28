@@ -23,7 +23,6 @@ public class ListManager : MonoBehaviour
     [SerializeField] private GameObject rugUI;
 
     [SerializeField] private GameObject target1, target2, target3, target4;
-    [SerializeField] private Vuforia.IVuEngine vufori;
 
  
 
